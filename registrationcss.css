@@ -1,0 +1,283 @@
+body{
+    align-items: center;
+    justify-content: center;
+}
+
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+.registration{
+    width: 100%;
+    max-width: 1500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+/* Блок с регистрацией */
+
+.block-form-registration{
+    width: 100%;
+    max-width: 720px;
+    height: 650px;
+    margin: 0 auto;
+    margin-top: 200px;
+    position: relative;
+    border-radius: 8px;
+    padding: 16px 48px;
+    overflow: hidden;
+}
+
+.block-form-registration ul li{
+   list-style-type: none;
+   font-family: 'Bad Script', cursive;
+   font-size: 18px;
+   font-weight: normal;
+   color: rgb(143, 131, 199);
+   margin-top: 3px;
+}
+
+.h2-title{
+    font-family: 'Bad Script', cursive;
+    text-align: center;
+    font-size: 28px;
+    font-weight: normal;
+    color: rgb(143, 131, 199);
+}
+
+#form_submit{
+    width: 110px;
+    height: 35px;
+    font-family: 'Bad Script', cursive;
+    font-size: 19px;
+    display: block !important;
+    margin: 7px auto;
+    color: rgb(143, 131, 199);
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    background-color: white;
+}
+
+#form_submit:hover{
+    background-color: rgb(143, 131, 199);
+    color: white;
+    transition: 0.3s linear;
+    border: none;
+}
+
+.block-form-registration input{
+    width: 220px;
+    height: 23px;
+    font-family: 'Neucha', cursive;
+    font-size: 16px;
+    margin-left: 190px;
+    padding-left: 5px;
+    margin-top: 10px;
+    color: rgb(143, 131, 199);
+    border-left: 1px solid rgb(143, 131, 199);
+    border-top: 1px solid rgb(143, 131, 199);
+    border-right: 1px solid rgb(196, 131, 199);
+    border-bottom: 1px solid rgb(196, 131, 199);
+    border-radius: 4px;
+ }
+
+ .block-form-registration label{
+    position: absolute;
+    font-family: 'Bad Script', cursive;
+    font-size: 23px;
+ }
+
+ .star{
+    position: absolute;
+    margin-top: 7px;
+    font-family: 'Bad Script', cursive;
+    font-size: 23px;
+    color: rgb(212, 57, 57);
+    margin-left: 1px;
+ }
+
+ .message{
+    font-family: 'Bad Script', cursive;
+    font-size: 14px;
+    margin-left: 10px;
+    color: rgb(212, 57, 57);
+ }
+
+ .message2{
+    font-family: 'Bad Script', cursive;
+    font-size: 16px;
+    margin-left: 170px;
+    color: rgb(212, 57, 57);
+ }
+
+
+/* Блок с входом */
+
+.autorization{
+    width: 100%;
+    max-width: 1500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.block-form-autorization{
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 100px; 
+    position: relative;
+    border-radius: 8px;
+    padding: 19px 48px;
+    overflow: hidden;
+}
+
+#form-autorization{
+   list-style-type: none;
+   font-family: 'Bad Script', cursive;
+   font-size: 23px;
+   font-weight: normal;
+   color: rgb(143, 131, 199);
+   margin-top: 5px;
+}
+
+.h2-titlea{
+    font-family: 'Bad Script', cursive;
+    text-align: center;
+    font-size: 32px;
+    font-weight: normal;
+    color: rgb(143, 131, 199);
+}
+
+#form_submit2{
+    width: 100px;
+    height: 45px;
+    font-family: 'Bad Script', cursive;
+    font-size: 23px;
+    display: block !important;
+    margin: 18px auto;
+    color: rgb(143, 131, 199);
+    border-radius: 7px;
+    padding-left: 3px;
+    padding-right: 3px;
+    cursor: pointer;
+    background-color: white;
+    
+}
+
+#form_submit2:hover{
+    background-color:rgb(143, 131, 199);
+    color: white;
+    transition: 0.3s linear;
+}
+
+#auth_login{
+    width: 220px;
+    height: 23px;
+    font-family: 'Bad Script', cursive;
+    font-size: 16px;
+    margin-left: 70px;
+    padding-left: 5px;
+    color: #614a5f;
+    border-left: 1px solid rgb(143, 131, 199);
+    border-top: 1px solid rgb(143, 131, 199);
+    border-right: 1px solid rgb(196, 131, 199);
+    border-bottom: 1px solid rgb(196, 131, 199);
+    border-radius: 4px;
+ }
+
+ #auth_pass{
+    width: 220px;
+    height: 23px;
+    font-family: 'Bad Script', cursive;
+    font-size: 16px;
+    margin-left: 70px;
+    padding-left: 5px;
+    color: #614a5f;
+    border-left: 1px solid rgb(143, 131, 199);
+    border-top: 1px solid rgb(143, 131, 199);
+    border-right: 1px solid rgb(196, 131, 199);
+    border-bottom: 1px solid rgb(196, 131, 199);
+    border-radius: 4px;
+ }
+
+ .l_l{
+    position: absolute;
+    font-family: 'Bad Script', cursive;
+    font-size: 23px;
+ } 
+
+ .l_p{
+    position: absolute;
+    font-family: 'Bad Script', cursive;
+    font-size: 23px;
+ } 
+
+
+ 
+.pass-show{
+    background: url(img/icons8-показать-25.png) no-repeat;
+    width: 25px;
+    height: 25px;
+    margin-left: -27px;
+}
+
+.pass-hide{
+    background: url(img/icons8-закрытый-глаз-25.png) no-repeat;
+    width: 25px;
+    height: 25px;
+    margin-left: -27px;
+}
+
+#form-autorization span{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-top: 12px;
+    position: absolute;
+}
+
+.reg{
+    color: rgb(118, 107, 167);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.p12{
+    margin-left: 50px;
+    color: rgb(143, 131, 199);
+    font-size: 18px;
+    font-family: 'Bad Script', cursive;
+}
+
+.p13{
+    margin-left: 150px;
+    color: #614a5f;
+    font-size: 18px;
+    font-family: 'Bad Script', cursive;
+}
+
+.message3{
+    font-family: 'Bad Script', cursive;
+    font-size: 16px;
+    margin-left: 120px;
+    color: rgb(212, 57, 57);
+ }
+
+ .message4{
+    font-family: 'Bad Script', cursive;
+    font-size: 16px;
+    margin-left: 140px;
+    color: rgb(212, 57, 57);
+ }
+
+
+
+
+
